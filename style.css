@@ -1,3 +1,44 @@
 body{
-	background:blue;
+	background:yellow;
+}
+
+.border{
+	border: 2px solid green;
+	padding: 20px;
+}
+
+input{
+	margin-left: 10%;
+}
+
+button{
+	margin-left: 10%;
+}
+
+.center{
+	margin: auto;
+	width: 50%;
+}
+
+#background{
+	padding: 80%;
+	background-image: url("http://www.planwallpaper.com/static/images/Fall-Nature-Background-Pictures.jpg");
+	font: white;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: blue;
+  }
+
+a:link {
+    color:black;
+}
+
+a:visited{
+	color:red;
+}
+
+a:hover {
+    color: black;
 }
